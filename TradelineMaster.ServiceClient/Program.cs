@@ -21,16 +21,13 @@ namespace TradelineMaster.ServiceClient
 
     class Program
     {
-        private const string requestController = "Tradeline/";
         private const string brokerWebsite = "www.YOURSITE.com";
-
-        private static string apiUrl => "https://www.tradelinemaster.com/api/";
-
-        private static string userKey => "YOUR API User Key";
-
-        private static string passKey => "YOUR API Pass Key";
-
-        private static int apiVersion => 3;
+        private const string userKey = "YOUR API User Key";
+        private const string passKey = "YOUR API Pass Key";
+        
+        private const string requestController = "Tradeline/";
+        private const string apiUrl = "https://www.tradelinemaster.com/api/";
+        private const int apiVersion = 3;
 
         static void Main(string[] args)
         {
