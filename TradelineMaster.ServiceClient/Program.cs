@@ -21,7 +21,7 @@ namespace TradelineMaster.ServiceClient
 
     class Program
     {
-        private const string brokerWebsite = "www.YOURSITE.com";
+        private const string brokerWebsite = "https://www.YOURSITE.com";
         private const string userKey = "YOUR API User Key";
         private const string passKey = "YOUR API Pass Key";
         
