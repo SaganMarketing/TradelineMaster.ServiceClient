@@ -36,7 +36,7 @@ namespace TradelineMaster.ServiceClient
             var client = new RestClient(apiUrl);
 
             client.AddDefaultHeader("Accept", "application/json");
-            client.AddDefaultHeader("Referrer", brokerWebsite);            
+            client.AddDefaultHeader("Referer", brokerWebsite);            
             client.AddDefaultHeader("APIVersion", $"{ apiVersion }");
 
             var authParameterBytes = System.Text.Encoding.UTF8.GetBytes(userKey + ":" + passKey);
